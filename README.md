@@ -35,12 +35,12 @@ Ofrezco asesoría y consultoría en:
 
 ## ⚙️ Tecnologías y Herramientas
 
-- Python 3.x
+- Python 
 - Sockets (TCP/UDP)
 - Multiprocessing / Threading
 - JSON-RPC
 - Arquitectura cliente-servidor
-- Docker (en algunos ejercicios)
+
 
 ---
 
