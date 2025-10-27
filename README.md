@@ -1,35 +1,52 @@
-# Sistemas-Distribuidos
+## 💼 Consultoría y Colaboración
 
-•	Un sistema distribuido es aquel en el que los componentes (hardware o software) ubicados en computadoras estan conectadas a una red y se comunican y/o coordinan mediante el intercambio de mensajes. 
+Soy **José Fernando Ayala Padilla**, **Cloud Test Engineer en Insulet México**, con experiencia en pruebas automatizadas y manuales, diseño de pruebas e integración infraestructura en la nube y pipelines de datos.
+Actualmente curso una **Maestría en Big Data en la Universidad Autónoma de Guadalajara (UAG)**, enfocándome en el diseño y evaluación de sistemas distribuidos.
 
-•	Es un conjunto de computadores independientes que estan interconectados a traves de una red y con la capacidad para realizar una tarea. Las telecomunicaciones permiten la conectividad de un gran numero de usuarios ubicados en cualquier parte del mundo por medio de la transmision de voz, datos y/o video, a traves de una gran variedad de dispositivos. 
+Ofrezco asesoría y consultoría en:
 
-<img width="714" height="615" alt="Screenshot 2025-10-21 at 8 26 22 PM" src="https://github.com/user-attachments/assets/bf3c4eaf-10bc-450f-a3d0-2ce68c959c19" />
+- Cloud Testing y QA Automation
+- Arquitecturas distribuidas y microservicios
+- Data Engineering y pipelines en la nube
+- Integración continua y DevOps
 
-Concurrencia:
+📧 **Contacto:** [jfayalap18@gmail.com]
 
-•	Es la capacidad de multiples componentes o nodos de ejecutar tareas y procesos de manera simultanea, compartiendo recursos y comunicandose a traves de una red para alcanzar un objetivo.
-•	Esto permite que los sistemas sean mas eficientes y fiables, ya que permite manejar grandes volumenes de datos y tareas complejas.
+🔗 **LinkedIn:** [https://www.linkedin.com/in/jos%C3%A9-fernando-ayala-padilla-49a4741b6/]
 
-Caracteristicas de la concurrencia en sistemas distribuidos:
-
-1)	Ejecucion simultanea:   es cuando diferentes tareas o procesos se ejecutan al mismo tiempo en distintos nodos del sistema 
-2)	Comnucacion por mensajes: los nodos independientes se comunican entre si pasando mensajes para coordinar sus acciones. 
-3)	Independencia de componentes: cada componente puede fallar sin afectar a los demas, lo que aumenta la fiabilidad del sistema. 
-4)	No cuenta con un reloj global: La ausencia de un reloj centralizado implica la necesidad de mecanismos de sincronizacion para coordinar acciones entre nodos. 
-
-Desafios de la concurrencia:
-
-1)	Inconsistencia de datos: Dado que la manipulacion de los datos es de manera simultanea, esto puede provocar que los resultados sean incorrectos si no se controla de manera adecuada el acceso. 
-2)	Fallos en los nodos: se requiere mecanismos de recuperacion y tolerancia a fallos, dado que cada componente puede fallar. 
-3)	Conflictos de acceso: multiples tareas que intentan modificar el mismo dato o recurso al mismo tiempo pueden entrar en conflicto. 
+---
 
 
-Mecanismos y tecnicas para el control de concurrencia: 
+## 📚 Contenido y Temas
 
-1)	Bloqueos (Locks): mecanismos que impiden que otros procesos accedan a un recurso mientras uno se esta utilizando. 
-2)	Semaforos: Herramienta de sincronizacion que permite gestionar el acceso a recursos compartidos por un numero limitado de procesos. 
-3)	Control de concurrencia multiversion (MVCC): mantiene multiples versiones de los datos, permitiendo que las transacciones se realicen sin bloquearse mutuamente y asegurando la consistencia de las versiones. 
-4)	Replicacion: mantenimiento de multiples copias de datos y/o servicios en diferentes nodos para mejorar la disponibilidad y rendimiento. 
+| Tema | Descripción | Código |
+|------|--------------|--------|
+| Comunicación TCP | Cliente-servidor con sockets TCP y manejo básico de conexiones concurrentes | [tcp_server_client.py](./tcp_server_client.py) |
+| Comunicación UDP | Ejemplo de comunicación sin conexión usando datagramas | [udp_example.py](./udp_example.py) |
+| Procesos y Multiprocesamiento | Ejecución paralela con `multiprocessing` y uso de colas de mensajes | [multiprocessing_demo.py](./multiprocessing_demo.py) |
+| Sincronización y Locks | Ejemplo práctico de exclusión mutua en procesos | [sync_locks.py](./sync_locks.py) |
+| RPC (Remote Procedure Call) | Ejemplo de servidor y cliente RPC usando JSON-RPC | [rpc_server_client.py](./rpc_server_client.py) |
+| Sistemas de Archivos Distribuidos | Prototipo básico de replicación de archivos entre nodos | [dfs_example.py](./dfs_example.py) |
+| Comunicación Multijugador | Implementación de un juego tipo Pac-Man con múltiples clientes TCP | [pacman_multiplayer.py](./pacman_multiplayer.py) |
 
 
+
+---
+
+## ⚙️ Tecnologías y Herramientas
+
+- Python 3.x
+- Sockets (TCP/UDP)
+- Multiprocessing / Threading
+- JSON-RPC
+- Arquitectura cliente-servidor
+- Docker (en algunos ejercicios)
+
+---
+
+
+## ❤️ Apoya mi trabajo
+
+Si este repositorio te resultó útil o educativo, considera dejar una ⭐ o apoyarme como *sponsor*.
+
+👉 [GitHub Sponsors](https://github.com/sponsors/jfayalapadilla)
