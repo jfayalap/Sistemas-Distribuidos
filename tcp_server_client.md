@@ -1,13 +1,14 @@
 # Arquitectura cliente - servidor 
 ------
 
-En este tipo de arquitectura cuenta con varios nodos para distribuir las conexiones de los clientes.
+Es un modelo de software en el que las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores y, los que piden la informacion clientes. En este tipo de arquitectura, la capacidad de proceso se encuentra repartida entre los clientes y los servidores. 
+Por otro lado, la red cliente-servidor, es una red de comunicacion en la cual los clientes se encuentran conectados a un servidor, en el que se centra en los recursos. 
 
 
 ## Componentes clave: 
 ----
 
-Cliente: Es la parte que iniica las peticiones de servidores hacia el servidor, usando la red como el mecanismo de comunicación. El vliente envía una petición al servidor web y, el mismo servidor, es el que devuelve los datos solicitados mediante peticiones HTTP. 
+Cliente: Es la parte que inica las peticiones de servidores hacia el servidor, usando la red como el mecanismo de comunicación. El vliente envía una petición al servidor web y, el mismo servidor, es el que devuelve los datos solicitados mediante peticiones HTTP. 
 
 
 Servidor: Se encarga de proporcionar los servicicios a los clientes. Puede consistir en distintos compoentnes del software, también, es un harware que proporciona los recursos necesario para otros ordenadores y/o programas. El servidor siempre acepta las peticiones del cliente, las procesa y proporciona una respuesta. 
