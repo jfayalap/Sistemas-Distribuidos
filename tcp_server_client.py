@@ -17,7 +17,8 @@ def iniciar_servidor():
     print(f" Conexión establecida con {addr}")
 
     mensaje = conn.recv(1024).decode()
-    print(f" Mensaje recibido: {mensaje}")
+    print(f" Mensaje recibido: {mensaje}") ## Este print arroja el mensaje de Hola mundo siempre 
+                                            ##y cuando sea igual al puerto y IP
 
     conn.close()
     servidor.close()
