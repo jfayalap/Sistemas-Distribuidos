@@ -1,5 +1,7 @@
-## El siguiente codigo tiene como objetivo generar una comunicacion entre cliente y servidor mandando un mensaje de Hola Mundo
-##donde se le pide al cliente que ingrese El IP del servidor y el host y, si coincide el servidor recibe el mensaje de Hola mundo 
+## El siguiente codigo tiene como objetivo generar una comunicacion entre cliente
+y servidor mandando un mensaje de Hola Mundo
+##donde se le pide al cliente que ingrese El IP del servidor y el host y, 
+si coincide el servidor recibe el mensaje de Hola mundo 
 
 
 import socket
