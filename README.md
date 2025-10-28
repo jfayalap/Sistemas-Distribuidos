@@ -8,7 +8,7 @@ Ofrezco asesoría y consultoría en:
 - Cloud Testing y QA Automation
 - Arquitecturas distribuidas y microservicios
 - Data Engineering y pipelines en la nube
-- Integración continua y DevOps
+- Integración continua 
 
 📧 **Contacto:** [jfayalap18@gmail.com]
 
