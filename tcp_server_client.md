@@ -39,3 +39,18 @@ Servidor: Se encarga de proporcionar los servicicios a los clientes. Puede consi
 
 •	Los datos se almacenan en un lugar centralizado, permitiendo mantener la coherencia y evita el duplicado de datos. 
 
+## Ejemplo: 
+----
+
+El siguiente ejemplo es una conexión entre cliente-servidor, donde el servidor recibe el mensaje Hola Mundo, siempre y cuando el cliente ingresa IP y el puerto igual al del servidor, de lo contrario, no se envia ningun mensaje. 
+
+El código lo puedes encontrar aqui : 
+
+https://github.com/jfayalap/Sistemas-Distribuidos/blob/main/tcp_server_client.py
+
+## Captura de pantalla del código cliente 
+<img width="321" height="57" alt="Screenshot 2025-10-30 at 12 31 27 PM" src="https://github.com/user-attachments/assets/130d87fb-51b3-4740-ba93-932357bbf9e4" />
+
+
+## Captura de pantalla del código servidor 
+<img width="381" height="55" alt="Screenshot 2025-10-30 at 12 31 38 PM" src="https://github.com/user-attachments/assets/016f695b-399c-4abe-aef9-f9f85cc8019d" />
