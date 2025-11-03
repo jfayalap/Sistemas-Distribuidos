@@ -36,9 +36,4 @@ Uno de los mayores problemas es la falta de confiabilidad dado que es muy sencil
 
 UDP no tiene mecanismos para gestionar el tráfico de red, por lo que es muy sencillo saturar la red y generar errores. 
 
-## Código de ejemplo 
-------
-Resultado obtenido de la Código () estableciendo una Código UDP 
-
-<img width="966" height="69" alt="Screenshot 2025-11-02 at 4 23 17 PM" src="https://github.com/user-attachments/assets/4de465da-348a-43b3-8f82-73d826ab78aa" />
 
