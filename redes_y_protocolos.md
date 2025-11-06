@@ -43,6 +43,9 @@ Define el formato, estructura y codificación de los mensajes para asegurar que 
 - `HTTP`: Sintaxis definida para solicitudes y respuestas.
 - `SIP`: Protocolo de inicio de sesión con estructura específica.
 
+<img width="322" height="102" alt="image" src="https://github.com/user-attachments/assets/66876e5b-fa54-4c90-943c-2b19a4604826" />
+
+
 ---
 
 ### 2. Semántica
@@ -55,8 +58,11 @@ Se refiere al significado de los comandos y datos, y cómo se interpretan correc
 - **Coordinación de acciones**
 - **Gestión de errores**
 
-> Ejemplo: Un código puede tener buena sintaxis pero mala semántica si intenta dividir entre cero.
 
+
+<img width="364" height="90" alt="image" src="https://github.com/user-attachments/assets/a27f6e11-e3a6-4dcf-bdbd-4040dd58f43c" />
+
+> Ejemplo: En este ejemplo podemos ver que, la sintaxis si esta bien porque es un codigo bien hecho, sin embargo, no cuenta con una buena semantica ya que no se puede dividir entre cero 
 ---
 
 ### 3. Sincronización
@@ -68,6 +74,9 @@ Alineación temporal de dispositivos para operar de forma coordinada.
 - `NTP`: Sincronización con precisión de milisegundos.
 - `PTP`: Alta precisión para aplicaciones críticas.
 - `SyncE`: Sincronización en redes Ethernet.
+
+<img width="395" height="366" alt="image" src="https://github.com/user-attachments/assets/a3de7197-ce29-4797-a6f2-f3d6b01b1b28" />
+
 
 **Otros usos:**
 
