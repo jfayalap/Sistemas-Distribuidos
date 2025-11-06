@@ -1,4 +1,4 @@
-# 📡 Sistemas Distribuidos: Redes y Protocolos
+# 📡 Redes y Protocolos
 
 Este documento explica los conceptos clave sobre redes, protocolos de comunicación y mecanismos de sincronización y manejo de errores en sistemas distribuidos.
 
