@@ -1,39 +1,72 @@
-# Comunicación de Protocolo de Datagrama de Usuarios (UDP) 
-------
+# 📡 Comunicación de Protocolo de Datagrama de Usuarios (UDP)
 
-Es un protocolo que transmite datos de forma rápida y eficiente sin la necesidad de establecer una conexión previa. 
-Esto es idea par aplicaciones como streamings de videos, juegos en linea. Sin embargo, la ausencia de una conexión, provocando una ausencia en la garantía de entrega de todos los paquetes ya que prioriza la velocidad y minimiza la latencia.
+Este documento explica el funcionamiento del protocolo UDP, sus características, ventajas y desventajas, comparándolo con TCP. Ideal para estudiantes y desarrolladores que trabajan con sistemas distribuidos y aplicaciones en tiempo real.
 
-## Características principales de la comunicación UDP 
-------
- 
+---
 
+## 📑 Índice
 
+- [¿Qué es UDP?](#qué-es-udp)
+- [Características principales de UDP](#características-principales-de-udp)
+- [Comparación UDP vs TCP](#comparación-udp-vs-tcp)
+- [Ventajas de UDP](#ventajas-de-udp)
+- [Desventajas de UDP](#desventajas-de-udp)
+- [Más sobre TCP](#más-sobre-tcp)
 
-| Caracteristica | UDP  | TCP |
-|------|--------------|--------|
-|Conexion | Sin Conexion | Establece una conexion antes de la comunicación
-|Fiabilidad | No es garantizada | Garantizada |
-|Velocidad | Más rápido | Es más lento debido a la sobrecarga de la Conexion|
-|Usos| Streaming, juegos en línea | transferencia de archivos, sitios web | 
+---
 
+## ❓ ¿Qué es UDP?
 
-Para ver más sobre el protocolo TCP protocolo puedes leer https://github.com/jfayalap/Sistemas-Distribuidos/blob/main/tcp_server_client.md 
+El **Protocolo de Datagrama de Usuario (UDP)** transmite datos de forma rápida y eficiente sin necesidad de establecer una conexión previa.  
+Es ideal para aplicaciones como streaming de video y juegos en línea.  
+Sin embargo, al no establecer conexión, no garantiza la entrega de todos los paquetes, ya que prioriza la velocidad y minimiza la latencia.
 
-<img width="522" height="244" alt="Screenshot 2025-11-02 at 3 59 50 PM" src="https://github.com/user-attachments/assets/8b446ee1-f5ba-419d-9c84-fd9e0e03916c" />
+---
 
-## Ventajas de la conexión UDP 
-------
+## ⚙️ Características principales de UDP
 
-Este tipo de conexión es muy eficiente debido a la sobrecarga mínima que se usa, ya que se usa menos recursos con respecto al protocolo TCP, ademas permite, enviar datos a varios receptores de manera simultánea.
+UDP se caracteriza por su simplicidad y rapidez, pero también por su falta de mecanismos de control y fiabilidad.
 
-Ya que no es necesario una conexión antes de enviar datos, la Transmisión es mas rápida y con menor retraso, lo cual esto es muy eficiente para aplicaciones donde el tiempo es indispensable. 
+---
 
-## Desventajas  de la conexión UDP 
-------
+## 📊 Comparación UDP vs TCP
 
-Uno de los mayores problemas es la falta de confiabilidad dado que es muy sencillo que se pierdan los paquetes y seguridad de la misma, debido a que no existen mecanismos de autenticidad. 
+| Característica | UDP | TCP |
+|----------------|-----|-----|
+| Conexión       | Sin conexión | Establece conexión previa |
+| Fiabilidad     | No garantizada | Garantizada |
+| Velocidad      | Más rápido | Más lento por sobrecarga |
+| Usos           | Streaming, juegos en línea | Transferencia de archivos, sitios web |
 
-UDP no tiene mecanismos para gestionar el tráfico de red, por lo que es muy sencillo saturar la red y generar errores. 
+---
 
+## 🚀 Ventajas de UDP
+
+- Baja sobrecarga: utiliza menos recursos que TCP.
+- Transmisión rápida: no requiere conexión previa.
+- Multicast: permite enviar datos a varios receptores simultáneamente.
+- Ideal para aplicaciones sensibles al tiempo como videollamadas, transmisiones en vivo y juegos.
+
+---
+
+## ⚠️ Desventajas de UDP
+
+- Falta de confiabilidad: los paquetes pueden perderse fácilmente.
+- Sin autenticación: no hay mecanismos de seguridad integrados.
+- Saturación de red: no gestiona el tráfico, lo que puede causar errores.
+
+---
+
+## 📎 Más sobre TCP
+
+Para ver más sobre el protocolo TCP, consulta el siguiente archivo del repositorio:  
+👉 [tcp_server_client.md](https://github.com/jfayalap/Sistemas-Distribuidos/blob/main/tcp_server_client.md)
+
+---
+
+## 🖼️ Ejemplo visual
+
+![UDP vs TCP](https://github.com/user-attachments/assets/8b446ee1-f5ba-419d-9c84-fd9e0e03916c)
+
+---
 
