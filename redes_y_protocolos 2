@@ -1,0 +1,121 @@
+Suite de protocolos y estandares de la industria:
+
+•	Una suite de protocolos es un grupo de protocolos que trabajan en forma conjunta para proporcionar servicios integrales de comunicación de red, pueden estar especificadas por una organización de estandares o puede ser desarrollada por un proveedor. 
+•	La suite de protocolos TCP/IP es un estandar abierto, estos protocolos estan disponibles sin cargo. 
+
+1)	Capa de aplicación: Incluye protocolos especificos como HTTP, DNS 
+2)	Capa de transporte: Maneja la comunicación entre aplicaciones en distintos hosts, como protocolos TCP y UDP 
+3)	Capa de internet: se encarga del enrutamiento de datos a traves de diferentes redes, utilizando protoclos como IP (version 4 y 6)
+4)	Capa de acceso a la red : gestiona la comunicación de datos dentro de un mismo segmento de red local, utilizando protoclos como Ethernet y Wi-fi 
+Proceso de comunicacion TCP/IP:
+
+•	Es el sistema de protocolos fundamental que permite la transmision de datos a traves de redes e internet. 
+•	El protocolo de control de tranmision (TCP) se encarga de la transmision fiable, asegurando que los datos lleguen completos y en orden, mientras que el protocolo de Internet (IP) gestiona el direccionamiento y el enrutamiento de estos paquetes. 
+Como funciona:
+
+Si se enviaran datos desde un servidor web a un cliente, el procedimiento de encapsulamiento seria el siguiente:
+1.	El servidor web prepara la página de lenguaje de marcado de hipertexto (HTML). El protocolo de capa de aplicación HTTP envía los datos a la capa de transporte.
+2.	La capa de transporte divide los datos en segmentos e identifica cada uno.
+3.	La capa de transporte divide los datos en segmentos e identifica cada uno.
+4.	La información de Ethernet se agrega para crear la trama de Ethernet o el marco de enlace de datos.
+5.	Esta trama se envía al router más cercano a lo largo de la ruta hacia el cliente web. Cada router agrega información de enlace de datos nueva antes de reenviar el paquete.
+
+
+
+
+Cuando recibe los marcos de enlace de datos del servidor web, el cliente procesa y elimina el encabezado de cada protocolo en el orden inverso al que agrego:
+1.	Primero se elimina el encabezado de Ethernet.
+2.	Luego el encabezado de IP.
+3.	A continuación, el encabezado de la capa de transporte.
+4.	Finalmente ,  la informacion HTTP es procesada y filtrada al naegador web del cliente
+ 
+
+Topologia de la red:
+
+•	Es la manera en la que esta disenada la red, sea en el plano fisico o logico. Es un conjunto de nodos interconectados donde cada nodo es el punto en el que una curva se intercepta a si misma. 
+
+ 
+
+Topologia fisica:
+
+Se refiere a la forma en que los dispositivos estan conectados fisicamente en una red.  Es decir por cables, nodos y/o equipos en el espacio real. 
+Tipos comunes de topologia fisica 
+
+1)	Topologia de estrella: 
+
+•	Los nodos estan conectados a un concentrador central
+•	Este tipo de topologia facilita la resolucion de problemas en un nodo particular, si un nodo falla el resto de la red no se ve afectada. Sin embargo, si el nodo central falla, toda la red se cae.
+ 
+
+2)	Topologia en bus:
+
+•	Todos los dispositivos comparten un unico cable principal 
+•	Dificil de diagnosticar fallos
+•	Si el cable principal falla, toda la red se ve afectada
+•	La informacion viaja por el cable  en ambos y tiene en sus dos extremos una resistencia llamada terminador. 
+ 
+
+3)	Topologia en anillo:
+
+•	Cada dispositivo esta conectado al siguiente, formando un circulo cerrado
+•	Los datos circulan en una direccion 
+•	Si un nodo falla, puede interrumpir toda la red.
+•	Este tipo de comunicación se da por el paso de un token 
+ 
+
+4)	Topologia en malla
+
+•	Cada dispositivo (nodo) esta conectado a todos los demas nodos 
+•	Cada servidor tiene sus propias conexiones con todos los demas servidores
+•	La red puede funcionar aun cuando un nodo desaparece y/ la conexión falla ya que el resto de los nodos evitan el paso por este punto 
+
+ 
+
+5)	Topologia hibrida: 
+
+•	Combinacion de dos o mas topologias anteriores.
+ 
+
+6)	Topologia punto a punto:
+•	Es un enlace permanente entre dos puntos finales conocidos como punto a punto (P2P). 
+•	El valor de una red permanente de P2P es la comunicación sin obstaculos entre los dos puntos finales
+•	Ley de metcalfe 
+ 
+
+7)	Tologia de arbol:
+
+•	Consiste en un conjunto de subredes estrella conectadas a un bus, facilitando el crecmiento de la red.
+•	Esta compuesta por un cableado punto a punto 
+•	Si se viene abajo el segmento principal, todo el segmento se viene abajo con el
+ 
+
+8)	Topologia fully conected:
+•	Las redes disenadas suelen ser muy caras de configurar pero dan un alto grado de confiabilidad 
+
+ 
+Topologia logica
+
+
+Se refiere a la manera en la que se circulan los datos dentro de una red, independientemente de como esten conectados los dispositivos fisicamente. Es decir, se enfoca en el flujo de la informacion y la forma en que se comunican los nodos. 
+
+Tipos de topologia logica 
+
+1)	Logica en bus :
+
+•	Todos los dispositivos comparten el mismo canal de comunicación 
+•	Los datos se transmiten a todos los nodos, pero solo el destinatario los acepta
+
+2)	Logica en anillo:
+
+•	Los datos viajan en una direccion circular, pasando por cada nodo hasta llegar al destino
+•	A pesar de que fisicamente parezca una estrella, el flujo de datos sigue un patron de anillo
+
+3)	Logica en estrella:
+
+•	Los datos pasan por un nodo central
+•	Cada dispositivo se comunica directamente con el nodo central
+
+4)	Logica en malla:
+
+•	Los datos pueden tomar multiples rutas para llegar al destino
+•	Usadas en redes inalambricas y sistemas distribuidos
