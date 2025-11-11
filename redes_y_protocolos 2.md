@@ -1,6 +1,5 @@
 # 🧠 Suite de Protocolos y Topologías en Sistemas Distribuidos
 
-Este documento forma parte de mi portafolio técnico como consultor en calidad de datos y arquitectura distribuida. Aquí encontrarás una guía clara sobre protocolos de red, proceso de comunicación TCP/IP y topologías físicas y lógicas, con imágenes y ejemplos aplicables.
 
 ---
 
