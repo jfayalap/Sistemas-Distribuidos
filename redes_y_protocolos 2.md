@@ -76,14 +76,61 @@ La **topología** define cómo se conectan y comunican los dispositivos en una r
 
 
 
-1. **Estrella**: Nodos conectados a un concentrador central.
-2. **Bus**: Todos los dispositivos comparten un único cable.
-3. **Anillo**: Comunicación circular mediante *token*.
-4. **Malla**: Todos los nodos conectados entre sí.
+1. **Estrella**:
+
+•	Los nodos estan conectados a un concentrador central
+
+•	Este tipo de topologia facilita la resolucion de problemas en un nodo particular, si un nodo falla el resto de la red no se ve afectada. 
+
+2.  **Bus**: 
+
+•	Todos los dispositivos comparten un unico cable principal 
+
+•	Dificil de diagnosticar fallos
+
+•	Si el cable principal falla, toda la red se ve afectada
+
+•	La informacion viaja por el cable  en ambos y tiene en sus dos extremos una resistencia llamada terminador. 
+
+3. **Anillo**: 
+
+•	Cada dispositivo esta conectado al siguiente, formando un circulo cerrado
+
+•	Los datos circulan en una direccion 
+
+•	Si un nodo falla, puede interrumpir toda la red.
+
+•	Este tipo de comunicación se da por el paso de un token 
+
+4. **Malla**: 
+
+•	Cada dispositivo (nodo) esta conectado a todos los demas nodos 
+
+•	Cada servidor tiene sus propias conexiones con todos los demas servidores
+
+•	La red puede funcionar aun cuando un nodo desaparece y/ la conexión falla ya que el resto de los nodos evitan el paso por este punto 
+
 5. **Híbrida**: Combinación de topologías.
-6. **Punto a punto (P2P)**: Comunicación directa entre dos nodos.
-7. **Árbol**: Subredes estrella conectadas a un bus.
+
+•	Combinacion de dos topologías. 
+
+6. **Punto a punto (P2P)**:
+
+•	Es un enlace permanente entre dos puntos finales conocidos como punto a punto (P2P). 
+
+•	El valor de una red permanente de P2P es la comunicación sin obstaculos entre los dos puntos finales
+
+7. **Árbol**: 
+
+•	Consiste en un conjunto de subredes estrella conectadas a un bus, facilitando el crecmiento de la red.
+
+•	Esta compuesta por un cableado punto a punto 
+
+•	Si se viene abajo el segmento principal, todo el segmento se viene abajo con el
+
 8. **Fully connected**: Alta confiabilidad, alto costo.
+
+•	Las redes disenadas suelen ser muy caras de configurar pero dan un alto grado de confiabilidad 
 
 ---
 
