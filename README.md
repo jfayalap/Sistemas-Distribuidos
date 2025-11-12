@@ -24,6 +24,7 @@ Ofrezco asesoría y consultoría en:
 | Comunicación TCP | Cliente-servidor con sockets TCP y manejo básico de conexiones concurrentes | [tcp_server_client.md](./tcp_server_client.md) |
 | Ejemplo Comunicación TCP | Cliente-servidor con sockets TCP y manejo básico de conexiones concurrentes | [tcp_server_client.py](./tcp_server_client.py) |
 | Comunicación UDP | Ejemplo de comunicación sin conexión  | [udp.md](./udp.md) |
+| Redes y Protocolos parte 1  | Ejemplo de comunicación sin conexión  | [redes_y_protocolos.md](./redes_y_protocolos.md) |
 
 
 
