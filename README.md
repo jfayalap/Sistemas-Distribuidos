@@ -24,8 +24,8 @@ Ofrezco asesoría y consultoría en:
 | Comunicación TCP | Cliente-servidor con sockets TCP y manejo básico de conexiones concurrentes | [tcp_server_client.md](./tcp_server_client.md) |
 | Ejemplo Comunicación TCP | Cliente-servidor con sockets TCP y manejo básico de conexiones concurrentes | [tcp_server_client.py](./tcp_server_client.py) |
 | Comunicación UDP | Ejemplo de comunicación sin conexión  | [udp.md](./udp.md) |
-| Redes y Protocolos parte 1  | Conceptos clave sobre redes, protocolos de comunicación y mecanismos de sincronización y manejo de errores en sistemas distribuidos.  | [redes_y_protocolos.md](./redes_y_protocolos.md) |
-| Redes y Protocolos parte 2  | Conceptos clave sobre redes, protocolos de comunicación y mecanismos de sincronización y manejo de errores en sistemas distribuidos.  | [suite_de_protocolos.md](./suite_de_protocolos.md) |
+| Redes y Protocolos | Conceptos clave sobre redes, protocolos de comunicación y mecanismos de sincronización y manejo de errores en sistemas distribuidos.  | [redes_y_protocolos.md](./redes_y_protocolos.md) |
+| Suite de protocolos  | Una suite de protocolos es un conjunto organizado de reglas de comunicación que permiten la interoperabilidad entre sistemas en una red  | [suite_de_protocolos.md](./suite_de_protocolos.md) |
 
 
 
