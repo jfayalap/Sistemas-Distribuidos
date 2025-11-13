@@ -26,8 +26,8 @@ Ofrezco asesoría y consultoría en:
 | Ejemplo Comunicación TCP | Cliente-servidor con sockets TCP y manejo básico de conexiones concurrentes | [tcp_server_client.py](./tcp_server_client.py) |
 | Comunicación UDP | Ejemplo de comunicación sin conexión  | [udp.md](./udp.md) |
 | Redes y Protocolos | Conceptos clave sobre redes, protocolos de comunicación y mecanismos de sincronización y manejo de errores en sistemas distribuidos.  | [redes_y_protocolos.md](./redes_y_protocolos.md) |
+| Ejemplo de redes y protocolos  | Codigo de modelo cliente-servidor en donde se hace una comunicación utilizando una interfaz grafica  | [redes.py](./redes.py) |
 | Suite de protocolos  | Una suite de protocolos es un conjunto organizado de reglas de comunicación que permiten la interoperabilidad entre sistemas en una red  | [suite_de_protocolos.md](./suite_de_protocolos.md) |
-
 
 
 ---
