@@ -29,6 +29,7 @@ Ofrezco asesoría y consultoría en:
 | Ejemplo de redes y protocolos  | Codigo de modelo cliente-servidor en donde se hace una comunicación utilizando una interfaz grafica  | [redes.py](./redes.py) |
 | Suite de protocolos  | Una suite de protocolos es un conjunto organizado de reglas de comunicación que permiten la interoperabilidad entre sistemas en una red  | [suite_de_protocolos.md](./suite_de_protocolos.md) |
 | Tipos de Comunicación | Esto puede hacerse de forma directa, indirecta (buzones/puertos) o en grupo cuando varios nodos necesitan colaborar. | [Tipos de comunicacion.md](./Tipos_de_comunicacion.md) |
+| Llamadas_remotas | protocolo que permite a un programa ejecutar una función en otro ordenador como si fuera una llamada local, ocultando los detalles de la comunicación | [Llamadas_remotas.md](./Llamadas_remotas.md) |
 
 
 ---
