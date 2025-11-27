@@ -30,7 +30,7 @@ Ofrezco asesoría y consultoría en:
 | Suite de protocolos  | Una suite de protocolos es un conjunto organizado de reglas de comunicación que permiten la interoperabilidad entre sistemas en una red  | [suite_de_protocolos.md](./suite_de_protocolos.md) |
 | Tipos de Comunicación | Esto puede hacerse de forma directa, indirecta (buzones/puertos) o en grupo cuando varios nodos necesitan colaborar. | [Tipos de comunicacion.md](./Tipos_de_comunicacion.md) |
 | Llamadas Remotas | protocolo que permite a un programa ejecutar una función en otro ordenador como si fuera una llamada local, ocultando los detalles de la comunicación | [Llamadas_remotas.md](./Llamadas_remotas.md) |
-| Ejemplo Llamadas Remotas | implementación de un juego de gato (tic‑tac‑toe) donde dos jugadores se conectan en la misma máquina (localhost) pero en diferentes puertos. | [Llamadas_remotas.py](./Llamadas_remotas.py) |
+| Ejemplo Llamadas Remotas | implementación de un juego de gato (tic‑tac‑toe) donde dos jugadores se conectan en la misma máquina (localhost) pero en diferentes puertos. | [llamadas_remotas.py](./llamadas_remotas.py) |
 
 
 ---
