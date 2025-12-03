@@ -47,7 +47,7 @@ Ofrezco asesoría y consultoría en:
 ---
 
 
-## Si este repositorio te resultó útil o educativo, considera dejar una ⭐ o apoyarme como *sponsor*.  Apoya mi trabajo
+## Si este repositorio te resultó útil o educativo, considera dejar una ⭐ o apoyarme como *sponsor*. 
 
 
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-blue?logo=github)](https://github.com/sponsors/jfayalap)
