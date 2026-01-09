@@ -31,8 +31,8 @@ Ofrezco asesoría y consultoría en:
 | Tipos de Comunicación | Esto puede hacerse de forma directa, indirecta (buzones/puertos) o en grupo cuando varios nodos necesitan colaborar. | [Tipos de comunicacion.md](./Tipos_de_comunicacion.md) |
 | Llamadas Remotas | protocolo que permite a un programa ejecutar una función en otro ordenador como si fuera una llamada local, ocultando los detalles de la comunicación | [Llamadas_remotas.md](./Llamadas_remotas.md) |
 | Ejemplo Llamadas Remotas | implementación de un juego de gato (tic‑tac‑toe) donde dos jugadores se conectan en la misma máquina (localhost) pero en diferentes puertos. | [llamadas_remotas.py](./llamadas_remotas.py) |
-| Encriptado | implementación de un juego de gato (tic‑tac‑toe) donde dos jugadores se conectan en la misma máquina (localhost) pero en diferentes puertos. | [encriptado.md](./encriptado.md) |
-| Cifrado de Cesar | implementación de un juego de gato (tic‑tac‑toe) donde dos jugadores se conectan en la misma máquina (localhost) pero en diferentes puertos. | [cifrado-Cesar.py](./cifrado-Cesar.py) |
+| Encriptado | convierte los datos legibles en un formato codificado que es ininteligible para quienes no tienen la clave de descifrado. | [encriptado.md](./encriptado.md) |
+| Cifrado de Cesar | ejemplo de codigo de encriptacion usando el cifrado de Cesar. | [cifrado-Cesar.py](./cifrado-Cesar.py) |
 
 
 ---
