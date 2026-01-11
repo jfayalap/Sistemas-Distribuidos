@@ -32,7 +32,7 @@ Ofrezco asesoría y consultoría en:
 | Llamadas Remotas | protocolo que permite a un programa ejecutar una función en otro ordenador como si fuera una llamada local, ocultando los detalles de la comunicación | [Llamadas_remotas.md](./Llamadas_remotas.md) |
 | Ejemplo Llamadas Remotas | implementación de un juego de gato (tic‑tac‑toe) donde dos jugadores se conectan en la misma máquina (localhost) pero en diferentes puertos. | [llamadas_remotas.py](./llamadas_remotas.py) |
 | Encriptado | convierte los datos legibles en un formato codificado que es ininteligible para quienes no tienen la clave de descifrado. | [encriptado.md](./encriptado.md) |
-| Cifrado de Cesar | ejemplo de codigo de encriptacion usando el cifrado de Cesar. | [cifrado-Cesar.py](./cifrado-Cesar.py) |
+| Cifrado de Cesar | Ejemplo de código de encriptación usando el cifrado de Cesar. | [cifrado-Cesar.py](./cifrado-Cesar.py) |
 
 
 ---
