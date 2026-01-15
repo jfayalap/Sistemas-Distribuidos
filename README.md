@@ -33,7 +33,7 @@ Ofrezco asesoría y consultoría en:
 | Ejemplo Llamadas Remotas | implementación de un juego de gato (tic‑tac‑toe) donde dos jugadores se conectan en la misma máquina (localhost) pero en diferentes puertos. | [llamadas_remotas.py](./llamadas_remotas.py) |
 | Encriptado | convierte los datos legibles en un formato codificado que es ininteligible para quienes no tienen la clave de descifrado. | [encriptado.md](./encriptado.md) |
 | Cifrado de Cesar | Ejemplo de código de encriptación usando el cifrado de Cesar. | [cifrado-Cesar.py](./cifrado-Cesar.py) |
-
+| Envio de archivos | Ejemplo de mecanimos de transferencia de archivos usando sockets | [envio_de_archivos.py](./envio_de_archivos.py) |
 
 ---
 
