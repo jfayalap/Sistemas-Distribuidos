@@ -32,3 +32,17 @@
 2. **Semáforos**: herramienta de sincronización que gestiona el acceso a recursos compartidos por un número limitado de procesos.  
 3. **Control de concurrencia multiversión (MVCC)**: mantiene múltiples versiones de los datos, permitiendo que las transacciones se realicen sin bloquearse mutuamente y asegurando la consistencia de las versiones.  
 4. **Replicación**: mantenimiento de múltiples copias de datos y/o servicios en diferentes nodos para mejorar la disponibilidad y rendimiento.  
+
+
+# Tabla Comparativa: Transacciones vs Concurrencia en Sistemas Distribuidos
+
+| Aspecto                          | Transacciones                                                                 | Concurrencia                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| **Definición**                   | Secuencia de operaciones atómicas que garantizan consistencia y fiabilidad.   | Capacidad de ejecutar múltiples procesos o tareas de manera simultánea.       |
+| **Objetivo principal**           | Mantener la integridad de los datos mediante propiedades **ACID**.            | Mejorar eficiencia, escalabilidad y resiliencia del sistema.                  |
+| **Alcance**                      | Puede abarcar varios nodos como una sola unidad lógica.                       | Involucra múltiples nodos que trabajan en paralelo compartiendo recursos.     |
+| **Propiedades clave**            | **ACID**: Atomicidad, Consistencia, Aislamiento, Durabilidad.                 | Ejecución simultánea, comunicación por mensajes, independencia de componentes.|
+| **Ventajas**                     | Garantiza consistencia de datos incluso ante fallos.                          | Permite manejar grandes volúmenes de datos y tareas complejas.                |
+| **Desafíos**                     | Complejidad en coordinación entre nodos y fallos en commit distribuido.       | Inconsistencia de datos, fallos en nodos, conflictos de acceso.               |
+| **Mecanismos de control**        | Commit en dos fases (2PC), transacciones anidadas.                            | Bloqueos, semáforos, MVCC, replicación.                                      |
+| **Ejemplo práctico**             | Transferencia bancaria que debe ser atómica y consistente.                    | Procesamiento paralelo de solicitudes en un sistema de e-commerce.            |
