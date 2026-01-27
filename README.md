@@ -9,11 +9,11 @@ It includes hands-on projects, experiments, and implementations designed to expl
 ## 🎯 Purpose
 The main goals of this repository are to:
 
-- Apply distributed systems theory through real-world implementations  
-- Explore network communication and concurrency models  
-- Build systems that simulate real-world distributed applications  
+- Translate distributed systems theory into practical implementations
+- Analyze communication and concurrency trade-offs
+- Simulate real-world distributed system behavior
 
-This repository is continuously evolving and serves as part of my technical portfolio.  
+This repository is continuously evolving and serves as part of my technical portfolio.  Also, this project reflects real-world challenges such as coordination, network latency, and concurrent client handling.
 
 ---
 
