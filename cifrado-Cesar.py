@@ -2,7 +2,7 @@ from ast import JoinedStr
 import socket 
 import threading 
 
-# configuracion 
+# configuracion  
 
 usuario = "jose"
 clave = "12345"
