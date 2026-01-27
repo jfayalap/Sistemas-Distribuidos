@@ -44,41 +44,41 @@ Each file represents a specific concept, project, or experiment related to distr
 # 🧠 Topics Covered
 Distributed architectures (P2P, client-server)
 
-TCP & UDP socket programming
+- TCP & UDP socket programming
 
-Multicast communication
+- Multicast communication
 
-Concurrency and multithreading
+- Concurrency and multithreading
 
-Node discovery
+- Node discovery
 
-Basic fault tolerance concepts
+- Basic fault tolerance concepts
 
 # 🛠️ Technologies Used
 
-Python 3
+- Python 3
 
-Sockets (TCP / UDP)
+- Sockets (TCP / UDP)
 
-Threading
+- Threading
 
-Tkinter
+- Tkinter
 
-JSON
+- JSON
 
 # 🚀 Highlighted Project
 
 ## 💬 Distributed Chat System (WhatsApp-like)
 
-A real-time messaging application built in Python featuring:
+- A real-time messaging application built in Python featuring:
 
-Peer discovery using UDP multicast
+- Peer discovery using UDP multicast
 
-Message delivery via TCP
+- Message delivery via TCP
 
-Multi-client concurrency
+- Multi-client concurrency
 
-Graphical interface with Tkinter
+- Graphical interface with Tkinter
 
 ## 📁 Location: /Chat-P2P
 
@@ -88,25 +88,26 @@ This project represents the core practical component of the course.
 
 Through this repository, I strengthened my understanding of:
 
-How distributed systems exchange data
+- How distributed systems exchange data
 
-Trade-offs between different architectures
+- Trade-offs between different architectures
 
-Concurrency challenges
+- Concurrency challenges
 
-Fundamentals of network reliability and scalability
+- Fundamentals of network reliability and scalability
 
-These concepts are directly applicable to cloud computing and performance engineering.
+
+### These concepts are directly applicable to cloud computing and performance engineering.
 
 # 🔮 Future Work
 
-Additional distributed system experiments
+- Additional distributed system experiments
 
-Performance and load testing scenarios
+- Performance and load testing scenarios
 
-Cloud-based deployments
+- Cloud-based deployments
 
-Fault injection experiments
+- Fault injection experiments
 
 # 👤 Author
 
